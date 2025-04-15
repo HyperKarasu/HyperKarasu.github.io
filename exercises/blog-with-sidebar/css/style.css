@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+/* COMMON PAGE LAYOUT SETUP CSS - START *****************/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    /* Calibri */
+    font-family: Cambria; 
+}
+/* COMMON PAGE LAYOUT SETUP CSS - END ********************/
+.grid-container {
+    display: grid;
+    grid-template-columns: 60% 50%
+    background-color: red;
+    border: 2px white;
+    border-radius: 4px;
+    font-size: 24px;
+}

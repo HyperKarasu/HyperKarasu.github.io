@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: palevioletred;
+}
+#grid-layout {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    display: inline-flex
+    #header {
+        
+    } 
+    #main {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    #sidebar {
+        
+    }
+}

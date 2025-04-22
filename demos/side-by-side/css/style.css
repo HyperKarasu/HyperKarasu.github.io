@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#card-container {
+    display: flex;
+    gap: 36px
+}
+.card {
+    border:tomato;
+}

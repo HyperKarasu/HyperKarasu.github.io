@@ -9,6 +9,8 @@
 */
 .card {
     display: grid;
+    width: 443px;
+    height: 673px;
 }
 .card-header {
     display: flex;

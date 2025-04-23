@@ -1,0 +1,37 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+.card {
+    display: grid;
+}
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.seg-1 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.seg-2 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.seg-3 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.seg-4 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}

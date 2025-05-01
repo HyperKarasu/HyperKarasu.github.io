@@ -40,6 +40,7 @@ body {
 }
 h1 {
     color: aliceblue;
+    font-family: @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 }
 .lobster-regular {
     font-family: "Lobster", sans-serif;
@@ -54,4 +55,7 @@ h1 {
   }
 .card-type-2 {
     justify-content: center;
+}
+h4 {
+    font-family: @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 }

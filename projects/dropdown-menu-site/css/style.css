@@ -11,17 +11,18 @@ body {
     display: flex;
     background:linear-gradient(to bottom, #DEB887,#B76C0B);
     justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    min-width: 400px;
 }
 #navbar #a {
     display: inline-block;
     text-decoration: none;
     padding: 24px;
 }
-#navbar #logo {
-    background-image: image();
-}
 .dropdown-container {
     position: relative;
+    flex: auto;
 }
 .dropdown-menu {
     position:absolute;
@@ -53,11 +54,13 @@ body {
 }
 #row-1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+    min-width: 400px;
 }
 #row-2 {
     display: flex;
     justify-content: space-between;
+    min-width: 400px;
 }
 .card {
     margin: auto;

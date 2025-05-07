@@ -15,10 +15,13 @@ body {
     padding: 20px;
     min-width: 400px;
 }
-#navbar #a {
+#navbar a {
     display: inline-block;
     text-decoration: none;
-    padding: 24px;
+    
+}
+#header {
+    background-image: url(../images/hero.png);
 }
 .dropdown-container {
     position: relative;

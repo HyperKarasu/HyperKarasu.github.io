@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+}
+.center-column {
+    background: url(../images/1a7166b9-c8bd-4186-9934-00b04a2b2e47-Calvin_Top_Sports_7.webp)
+    width: 50%; 
+    min-width: 480px;
+    margin: 0px auto; 
+}
+.contenders {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: auto;
+}
+@media (max-width: 480px) {
+    .contenders {
+      flex-direction: column;
+h1 {
+    text-
+}

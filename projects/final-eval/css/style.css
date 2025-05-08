@@ -11,7 +11,7 @@ body {
     justify-content: center;
 }
 .center-column {
-    background: url(../images/1a7166b9-c8bd-4186-9934-00b04a2b2e47-Calvin_Top_Sports_7.webp)
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/1a7166b9-c8bd-4186-9934-00b04a2b2e47-Calvin_Top_Sports_7.webp);
     width: 50%; 
     min-width: 480px;
     margin: 0px auto; 
@@ -21,10 +21,30 @@ body {
     justify-content: center;
     flex-direction: row;
     padding: auto;
+    flex-wrap: wrap;
 }
 @media (max-width: 480px) {
     .contenders {
       flex-direction: column;
+    }
+}
 h1 {
-    text-
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+}
+h4 {
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+}
+h2 {
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+}
+h3 {
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
 }

@@ -6,3 +6,64 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+#navbar {
+    display: flex;
+    background:linear-gradient(to top, #231f20,#201f23);
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    min-width: 400px;
+}
+#navbar-2 {
+    display: flex;
+    background:color(#2e293a);
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    min-width: 400px;
+}
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+}
+#header {
+    background-image: url(../images/hero.png);
+}
+.dropdown-container {
+    position: relative;
+    flex: auto;
+}
+.dropdown-menu {
+    position:absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity: 0.25s;
+        visibility: 0.25s;
+}
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown-menu a {
+    background-color: antiquewhite;
+    width: 100%;
+    min-width: 200px;
+}
+#navbar a:hover {
+    background: linear-gradient(to top, #DEB887,#B76C0B);
+}
+#navbar .dropdown-container {
+    flex: auto;
+    justify-content: right;
+    padding: auto;
+}
+a {
+    color: #ffffff;
+}
+#two {
+    color: #000;
+}

@@ -48,3 +48,23 @@ h3 {
     margin: 0px;
     padding: 0px;
 }
+h6 {
+    color: aliceblue;
+    padding: 0px;
+}
+p {
+    color: aliceblue;
+}
+.able {
+
+}
+#card {
+    padding: 5px;
+}
+button {
+    background-color: crimson;
+    color: aliceblue;
+}
+button:hover {
+    background: linear-gradient(to top, deepskyblue,blue);
+}

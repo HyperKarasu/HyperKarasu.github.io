@@ -13,6 +13,7 @@ body {
     text-align: center;
     padding: 20px;
     min-width: 400px;
+    flex-wrap: wrap;
 }
 #navbar-2 {
     display: flex;
@@ -21,6 +22,7 @@ body {
     text-align: center;
     padding: 20px;
     min-width: 400px;
+    flex-wrap: wrap;
 }
 #navbar a {
     display: inline-block;
@@ -32,6 +34,7 @@ body {
 .dropdown-container {
     position: relative;
     flex: auto;
+    flex-wrap: wrap;
 }
 .dropdown-menu {
     position:absolute;
@@ -66,4 +69,62 @@ a {
 }
 #two {
     color: #000;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: auto;
+    flex-wrap: wrap;
+}
+.sub-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: auto;
+    flex-wrap: wrap;
+}
+@media (max-width: 480px) {
+    .content {
+        flex-direction: column;
+    }
+    #navbar {
+        flex-direction: column;
+    }
+    #navbar-2 {
+        flex-direction: column;
+    }
+    #header {
+        flex-direction: column;
+    }
+    .sub-content {
+        flex-direction: column;
+    }
+}
+.foods {
+    object-fit: cover;
+    width: 360;
+    height: 360;
+}
+.food {
+    object-fit: cover;
+    width: 200;
+    height: 200;
+}
+h2 {
+    font-family: 'Clarity City';
+}
+h4 {
+    font-family: 'Clarity City';
+}
+p {
+    font-family: 'Clarity City';
+}
+@font-face {
+  font-family: 'Clarity City';
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: local('Clarity City'), url('../../Webfonts/WOFF2/ClarityCity-Light.woff2') format('woff2'),
+    url('../../Webfonts/WOFF/ClarityCity-Light.woff') format('woff');
 }

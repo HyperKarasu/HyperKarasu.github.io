@@ -16,7 +16,6 @@ body {
     width: 50%; 
     min-width: 480px;
     margin: 0px auto; 
-    border: 25px solid linear-gradient(to top, #E5E4E2, #C0C0c0);
 }
 .contenders {
     display: flex;

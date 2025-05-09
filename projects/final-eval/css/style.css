@@ -9,12 +9,14 @@ body {
     margin-right: auto;
     text-align: center;
     justify-content: center;
+    background-color: navy;
 }
 .center-column {
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/1a7166b9-c8bd-4186-9934-00b04a2b2e47-Calvin_Top_Sports_7.webp);
     width: 50%; 
     min-width: 480px;
     margin: 0px auto; 
+    border: 25px solid linear-gradient(to top, #E5E4E2, #C0C0c0);
 }
 .contenders {
     display: flex;
@@ -40,8 +42,9 @@ h4 {
 }
 h2 {
     color: aliceblue;
-    margin: 0px;
+    margin: auto;
     padding: 0px;
+
 }
 h3 {
     color: aliceblue;

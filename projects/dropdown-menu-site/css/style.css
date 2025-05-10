@@ -5,7 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color:ghostwhite;
+    background-image: url(../images/v1008-25-b.jpg);
 }
 #navbar {
     display: flex;
@@ -67,6 +67,9 @@ body {
 }
 .card {
     margin: auto;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
 }
 a {
     color: #000;
@@ -75,4 +78,17 @@ a {
     object-fit: cover;
     width: 320px;
     height: 320px;
+}
+.food {
+    object-fit: cover;
+    width: 440px;
+    height: 440px;
+}
+.center-column {
+    background-color:white;
+    width: 50%; 
+    min-width: 480px;
+    margin: 0px auto; 
+    justify-content: center;
+    text-align: center;
 }

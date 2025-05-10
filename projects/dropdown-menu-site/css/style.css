@@ -45,7 +45,7 @@ body {
 .dropdown-menu a {
     background-color: antiquewhite;
     width: 100%;
-    min-width: 200px;
+    min-width: 100px;
 }
 #navbar a:hover {
     background: linear-gradient(to top, #DEB887,#B76C0B);
@@ -67,4 +67,12 @@ body {
 }
 .card {
     margin: auto;
+}
+a {
+    color: #000;
+}
+.foods {
+    object-fit: cover;
+    width: 320px;
+    height: 320px;
 }

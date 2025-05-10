@@ -5,36 +5,60 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+}
+.center-column {
+    background-color:#231f20;
+    width: 50%; 
+    min-width: 480px;
+    margin: 0px auto; 
+}
+.center-column-2 {
+    background-color:#2e293a;
+    width: 50%; 
+    min-width: 480px;
+    margin: 0px auto; 
 }
 #navbar {
     display: flex;
-    background:linear-gradient(to top, #231f20,#201f23);
+    background-color:#231f20;
     justify-content: space-between;
     text-align: center;
     padding: 20px;
     min-width: 400px;
-    flex-wrap: wrap;
 }
 #navbar-2 {
     display: flex;
-    background:color(#2e293a);
+    background-color:#2e293a;
     justify-content: space-between;
     text-align: center;
     padding: 20px;
     min-width: 400px;
-    flex-wrap: wrap;
 }
 #navbar a {
     display: inline-block;
     text-decoration: none;
 }
+#navbar-2 a {
+    display: inline-block;
+    text-decoration: none;
+}
 #header {
-    background-image: url(../images/hero.png);
+    background-image: url(../images/caribbean-johnny-cake-recipe-scaled.jpeg);
+}
+#header-2 {
+    background-image: url(../images/scampi.jpg);
 }
 .dropdown-container {
     position: relative;
     flex: auto;
-    flex-wrap: wrap;
+}
+.dropdown-container-2 {
+    position: relative;
+    flex: auto;
 }
 .dropdown-menu {
     position:absolute;
@@ -52,14 +76,46 @@ body {
     visibility: visible;
 }
 .dropdown-menu a {
-    background-color: antiquewhite;
+    background-color: #ffffff;
+    flex-direction: column;
     width: 100%;
     min-width: 200px;
+    color: #000;
+}
+.dropdown-menu-2 {
+    position:absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity: 0.25s;
+        visibility: 0.25s;
+}
+.dropdown-container:last-child .dropdown-menu-2 {
+    right: 0px;
+}
+.dropdown-container-2:hover .dropdown-menu-2 {
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown-menu-2 a {
+    background-color: #ffffff;
+    flex-direction: column;
+    width: 100%;
+    min-width: 200px;
+    color: #000;
 }
 #navbar a:hover {
-    background: linear-gradient(to top, #DEB887,#B76C0B);
+    background-color: #F5D432;
 }
-#navbar .dropdown-container {
+#navbar .dropdown-container-2 {
+    flex: auto;
+    justify-content: right;
+    padding: auto;
+}
+#navbar-2 a:hover {
+    background-color: #00fca1;
+}
+#navbar-2 .dropdown-container {
     flex: auto;
     justify-content: right;
     padding: auto;
@@ -67,23 +123,7 @@ body {
 a {
     color: #ffffff;
 }
-#two {
-    color: #000;
-}
-.content {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    padding: auto;
-    flex-wrap: wrap;
-}
-.sub-content {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    padding: auto;
-    flex-wrap: wrap;
-}
+
 @media (max-width: 480px) {
     .content {
         flex-direction: column;
@@ -100,19 +140,29 @@ a {
     .sub-content {
         flex-direction: column;
     }
+    #row-1 {
+        flex-direction: column;
+    }
+    #row-2 {
+        flex-direction: column;
+    }
+    #row-3 {
+        flex-direction: column;
+    }
 }
 .foods {
     object-fit: cover;
-    width: 360;
-    height: 360;
+    width: 180px;
+    height: 180px;
 }
 .food {
     object-fit: cover;
-    width: 200;
-    height: 200;
+    width: 100px;
+    height: 100px;
 }
 h2 {
     font-family: 'Clarity City';
+    color: #ffffff;
 }
 h4 {
     font-family: 'Clarity City';
@@ -127,4 +177,35 @@ p {
   font-display: swap;
   src: local('Clarity City'), url('../../Webfonts/WOFF2/ClarityCity-Light.woff2') format('woff2'),
     url('../../Webfonts/WOFF/ClarityCity-Light.woff') format('woff');
+}
+#card {
+    padding: 15px;
+}
+.sub-content {
+    display: flex;
+    justify-content: center, space-between;
+    flex-direction: column;
+    padding: auto;
+    flex-wrap: wrap;
+}
+#row-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: auto;
+    flex-wrap: wrap;
+}
+#row-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: auto;
+    flex-wrap: wrap;
+}
+#row-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: auto;
+    flex-wrap: wrap;
 }
